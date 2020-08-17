@@ -7,7 +7,7 @@ Plug the arduino atmega328p to your PC via USB.
 
 In linux Make sure it exists the device file: 
 
-ls -l /dev/ttyACM0
+sudo ls -l /dev/ttyACM0
 
 
 If it does not exist, unplug and plug again the USB cable of the arduino
@@ -17,12 +17,12 @@ to the PC.
 
 To only build the program execute the command:
 
-make
+sudo make
 
 
 To remove all files and only leave the source:
 
-make clean
+sudo make clean
 
 
 To build and flash the program into arduino execute the command:
